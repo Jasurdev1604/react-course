@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container , Button , ActiveButton , Rotate} from './style';
+import {Button , ActiveButton , Rotate} from './style';
 import {ThemeProvider , createGlobalStyle} from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
