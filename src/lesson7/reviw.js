@@ -1,0 +1,1 @@
+// lifting state up -> stateni oshirish React componentlar orasida malumotni ustiga yani parentga olib chiqish
