@@ -5,8 +5,8 @@ const Index = () => {
     const [data , setData] = useState([])
     console.log(data);
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users').
-        then(res => res.json()).then(res => setData(res))
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res => res.json()).then(res => setData(res))
     } , [])
     return(<>
     {
