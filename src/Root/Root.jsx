@@ -15,7 +15,8 @@ import React from 'react'
 // import Lesson14 from '../lesson14/root'
 // import Lesson15 from '../lesson15'
 // import Lesson16 from '../lesson16'
-import Lesson17 from '../lesson17'
+// import Lesson17 from '../lesson17'
+import Lesson18 from '../lesson18'
 
 const Root = () => {
   return (
@@ -36,7 +37,8 @@ const Root = () => {
     {/* <Lesson14/> */}
     {/* <Lesson15/> */}
     {/* <Lesson16/> */}
-    <Lesson17/>
+    {/* <Lesson17/> */}
+    <Lesson18/>
     </>
   )
 }

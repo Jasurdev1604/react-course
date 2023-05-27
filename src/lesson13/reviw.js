@@ -6,6 +6,7 @@
 
 // createContext
 // put on store
+// permission
 // useContext
 
 // createContext qilingandan keyini storega obarami buning uchun component yasaymiz
