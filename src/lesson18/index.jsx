@@ -9,11 +9,26 @@ const Index = () => {
         .then(res => res.json()).then(res => setData(res))
     } , [])
     return(<>
-    {
-        data.map(({id , name , body , email}) => {
-           return <p key={id}>{id} - {name} - {email} - {body}</p>
-        })
-    }
+        <table border={1}>
+            <tr>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>body</th>
+            </tr>
+                {
+                    data.map(({id , name , email , body}) => {
+                        return(
+                            <tr>
+                                <td>{id}</td>
+                                <td>{name}</td>
+                                <td>{email}</td>
+                                <td>{body}</td>
+                            </tr>
+                        )
+                    })
+                }
+        </table>
     </>)
 }
 
