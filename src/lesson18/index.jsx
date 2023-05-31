@@ -4,7 +4,7 @@ const Index = () => {
 
     const [data , setData] = useState([])
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/comments' , {
+        fetch('https://jsonplaceholder.typicode.com/users' , {
             method:'GET',
         })
         .then(res => res.json()).then(res => setData(res))
@@ -21,13 +21,13 @@ const Index = () => {
             </thead>
             <tbody>
             {
-                data.map(({id , name , email , body}) => {
+                data.map(({id , name , email , username}) => {
                         return(
                             <tr key={id}>
                                 <td>{id}</td>
                                 <td>{name}</td>
                                 <td>{email}</td>
-                                <td>{body}</td>
+                                <td>{username}</td>
                             </tr>
                         )
                     })
