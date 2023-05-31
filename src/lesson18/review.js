@@ -7,4 +7,4 @@
 // POST -> backentga malumot youborish uchun ishlatiladi
 // PUT -> malumotni ozgartirish uchun ishlatiladi
 // DELETE -> ochirish
-// PATCH ->
+// PATCH -> faqat bitta malumot ozgartirish uchun ishlatiladi
