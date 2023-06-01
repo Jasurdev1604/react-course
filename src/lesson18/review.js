@@ -7,4 +7,9 @@
 // POST -> backentga malumot youborish uchun ishlatiladi
 // PUT -> malumotni ozgartirish uchun ishlatiladi
 // DELETE -> ochirish
-// PATCH -> faqat bitta malumot ozgartirish uchun ishlatiladi
+// PATCH -> faqat bitta malumot ozgartirish uchun ishlatiladi 
+
+// Status Code 
+
+// 404 -> backenddan xato kelganda
+// 200 ->  
