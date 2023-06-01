@@ -1,7 +1,7 @@
 // fetch -> javaScriptning backentdan malumot olib kelish uchun ishlatiladigan building metodi
 
 // endPoint, url, API, link -> malumotlar joylashgan manzil
-
+dfvdfdbb
 // CRUD, 
 // GET -> backentdan malumoti olib keladi
 // POST -> backentga malumot youborish uchun ishlatiladi
