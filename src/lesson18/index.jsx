@@ -1,37 +1,18 @@
-import React , {useEffect , useState} from 'react'
+import React from 'react'
+import Login from './login'
+import Data from './data'
+import Add from './add'
+import Update from './update'
 
-
-export const Index = () => {
-
-  const [data , setData] = useState([]);
-  const [selection , setSelection] = useState({});
-
-  useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/users`)
-    .then(res => res.json())
-    .then(res => setData(res))
-  } , [])
-
-  const get = (id) => {
-    fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
-    .then(res => res.json())
-    .then(res => setSelection(res))
-  }
-
-  console.log(selection);
-
+export const index = () => {
   return (
     <>
-      {
-        data.map(({id , name , email , username}) => {
-          return (
-            <h2 key={id}>{id} - {name} - {username} - {email} <button onClick={() => get(id)} >get</button></h2>
-          )
-        })
-      }
-      <p>{selection.id} - {selection.name} - {selection.email}</p>
+    <Login/>
+    <Data/>
+    <Add/>
+    <Update/>
     </>
   )
 }
 
-export default Index
+export default index
