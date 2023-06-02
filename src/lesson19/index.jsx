@@ -2,7 +2,6 @@ import React , { useEffect } from 'react'
 import axios from 'axios'
 
 const index = () => {
-    
   return (
     <>
     {
@@ -12,7 +11,7 @@ const index = () => {
                 method:'GET',
                 headers:{},
                 body:{name:'jasurbek',age:19},
-                // timeout:3000,
+                timeout:3000,
             }).then(res => console.log(res)) 
         } , [])
     }
