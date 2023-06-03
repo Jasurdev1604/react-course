@@ -6,13 +6,14 @@ import Info from './components/Info'
 import Contact from './components/Contact'
 import { BrowserRouter , Route , Switch} from 'react-router-dom'
 import { Redirect } from 'react-router-dom'
+import HomeWork from './HomeWork'
 
 export const index = () => {
 
   return (
     <>
     <BrowserRouter>
-    <h1>{window.location.pathname}</h1>
+    {/* <h1>{window.location.pathname}</h1>
       <Switch>
         <Route path={'/'} exact>
           <Redirect to={'/home'}/>
@@ -21,15 +22,16 @@ export const index = () => {
         <Route path={'/about'}><Navbar/></Route>
         <Route path={'/info'}><Navbar/></Route>
         <Route path={'/contact'}><Navbar/></Route>
-      </Switch>
-      <Switch>
-        {/* <Route path={'/'} exact component={Home}/> */}
+      </Switch> */}
+      {/* <Switch>
+        <Route path={'/'} exact component={Home}/>
         <Route path={'/home'} component={Home}/>
         <Route path={'/about'}><About/></Route>
         <Route path={'/info'}><Info/></Route>
         <Route path={'/contact'}><Contact/></Route>
         <Route path={'*'}><h1>404 not found</h1></Route>
-      </Switch>
+      </Switch> */}
+      <HomeWork/>
     </BrowserRouter>
     </>
   )
