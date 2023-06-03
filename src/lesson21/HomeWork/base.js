@@ -1,0 +1,44 @@
+export const users = [
+    {
+        id:1,
+        name:'jasurbek',
+        age:19,
+        status:'student',
+        hobbi:'cs'
+    },
+    {
+        id:2,
+        name:'eshmat',
+        age:19,
+        status:'qoyboqar',
+        hobbi:'cs'
+    },
+    {
+        id:3,
+        name:'toshmat',
+        age:19,
+        status:'molboqar',
+        hobbi:'cs'
+    },
+    {
+        id:4,
+        name:'xolmat',
+        age:19,
+        status:'echkiboqar',
+        hobbi:'cs'
+    },
+    {
+        id:5,
+        name:'gulmat',
+        age:19,
+        status:'bexdelnik',
+        hobbi:'cs'
+    },
+    {
+        id:6,
+        name:'nemat',
+        age:19,
+        status:'director ',
+        hobbi:'cs'
+    },
+]
