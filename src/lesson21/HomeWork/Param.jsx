@@ -23,7 +23,7 @@ export const Param = () => {
         <td style={{padding:'5px 10px'}}>{user.name}</td>
         <td style={{padding:'5px 10px'}}>{user.age}</td>
         <td style={{padding:'5px 10px'}}>{user.status}</td>
-        <td style={{padding:'5px 10px'}}>{user.hobbi}</td>
+        <td style={{padding:'5px 10px'}}>{user.hobbi} hello</td>
       </tr>
     </table>
   )
