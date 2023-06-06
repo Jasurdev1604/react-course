@@ -1,0 +1,88 @@
+import img from './unsplash_TiVPTYCG_3E.png'
+
+export const houses = [
+    {
+      id: 1,
+      name: "Webbrain Villa",
+      img,
+      price: 123456,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 2,
+      name: "Webbrain Cottage",
+      img,
+      price: 123456,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 3,
+      img,
+      name: "Webbrain Yard",
+      price: 123456,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 4,
+      name: "Webbrain Hall",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 5,
+      name: "Webbrain City",
+      price: 123456,
+      img,  
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 6,
+      name: "Webbrain Villa",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 7,
+      name: "Webbrain Market",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 8,
+      name: "Webbrain Dalls",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 9,
+      name: "Webbrain Villa",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 10,
+      name: "Webbrain Villa",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+      id: 11,
+      name: "Webbrain Villa",
+      price: 123456,
+      img,
+      details: { bed: 1, bath: 2, sq: 234 },
+    },
+    {
+        id: 12,
+        img,
+        name: "Webbrain Yard",
+        price: 123456,
+        details: { bed: 1, bath: 2, sq: 234 },
+      },
+  ];

@@ -11,7 +11,6 @@ const Hooks = () => {
         name:'jasurbek',
     })
 
-    console.log(state);
 
     return(
         <div style={{flex:1}}>
