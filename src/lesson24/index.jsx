@@ -1,5 +1,6 @@
-import React, { useState , useTransition} from 'react'
-import List from './List';
+import React, { Suspense, useState , useTransition} from 'react'
+const List = React.lazy(() => import('./List'));
+
 // import { flushSync } from 'react-dom';
 
 export const Index = () => {
@@ -35,7 +36,9 @@ export const Index = () => {
         {/* {
           isPending ? 'loading...' :list.map(e => <h1>{e}</h1>)
         } */}
-        <List value = {value}/>
+        <Suspense fallback= {<h1>loading....</h1>}>
+           <List value = {value}/>
+        </Suspense>
     </>
   )
 }

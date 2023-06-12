@@ -8,7 +8,7 @@
 
 // useDifferedValue -> useTransition bilan bir xil vazifasi faqat prop kelgan paytda ishlatiladi
 
-// suspense
+// suspense -> lazy -> fetchdan hamma malumotlar kelguncha fallback={<h1>loading...</h1>} yuradi kelib bolgach componentni yurgizadi
 // suspenseList
-// useId
-// useDebugValue
+// useId -> har doim unic id yasb beradi
+// useDebugValue -> faqat costum hooklar bilan ishlaydi
