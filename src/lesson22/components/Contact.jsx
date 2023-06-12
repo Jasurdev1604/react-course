@@ -4,6 +4,7 @@ export const Contact = () => {
   return (
     <div>
       <img src="https://bank.uz/upload/iblock/5cf/5cf4e969c584571020984135d2418538.png" width={500} height={500} alt="" />
+      <button onClick={()=>localStorage.removeItem('token')}>log out</button>
     </div>
   )
 }
