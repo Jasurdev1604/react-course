@@ -56,7 +56,8 @@ const Root = () => {
     {/* <Redux2/> */}
     {/* <Lesson22/> */}
     {/* <Lesson23/> */}
-    <Lesson24/>
+    {/* <Lesson24/> */}
+    <h1>Jasurbek otelbayev</h1>
     </>
   )
 }
